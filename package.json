@@ -1,0 +1,42 @@
+{
+  "name": "boxcut",
+  "version": "0.0.1",
+  "description": "Unpacks bundled JS",
+  "main": "dist/index.js",
+  "jsnext:main": "lib/index.js",
+  "bin": {
+    "boxcut": "./dist/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "bundler",
+    "unbundle"
+  ],
+  "author": "Keith McKnight",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.22.2",
+    "chalk": "^1.1.3",
+    "escodegen": "^1.8.1",
+    "esprima": "^3.1.3",
+    "fs-extra": "^2.0.0",
+    "js-beautify": "^1.6.8",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^7.1.1",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "eslint": "^3.14.1",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "repository": {
+    "url": "https://github.com/kmck/boxcut.git",
+    "type": "git"
+  }
+}
