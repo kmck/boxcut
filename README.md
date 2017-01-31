@@ -1,7 +1,7 @@
 Boxcut
 ======
 
-📦✂️
+📦 ✂️
 
 Boxcut splits up a Webpack build file into individual modules. It's not perfect, but if you're looking for something like this in the first place, it's probably better than nothing.
 
